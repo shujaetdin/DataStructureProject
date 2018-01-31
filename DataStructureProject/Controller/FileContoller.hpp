@@ -10,5 +10,18 @@
 #define FileContoller_hpp
 
 #include <stdio.h>
+#include"../Data/CrimeData.hpp"
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <vector>
+#include <sstream>
+
+using namespace std;
+
+public:
+static vector<CrimeData readCrimeDataToVector(string filename);
+
+
 
 #endif /* FileContoller_hpp */
