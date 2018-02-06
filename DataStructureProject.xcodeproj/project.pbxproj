@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */; };
 		EE7AB62620220BEE0083E029 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB62520220BEE0083E029 /* main.cpp */; };
 		EE7AB63220220C790083E029 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63020220C790083E029 /* Controller.cpp */; };
 		EE7AB63520220C8C0083E029 /* FileContoller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63320220C8C0083E029 /* FileContoller.cpp */; };
@@ -27,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
+		EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		EE71AF242024C22300757B53 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		EE7AB62220220BEE0083E029 /* DataStructureProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7AB62520220BEE0083E029 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE7AB63020220C790083E029 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		EE7AB63720220CE20083E029 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		EE7AB63920220F4A0083E029 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		EE7AB63A20220F4A0083E029 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		EE7AB63D20221F4D0083E029 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		EE7AB63E20221F570083E029 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3B4DA02029FF9C00CB80C1 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */,
+				EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
+		EE71AF1A2024C03200757B53 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				EE71AF1C2024C0C300757B53 /* Linear */,
+				EE71AF1B2024C05700757B53 /* Non-Linear */,
+				EE71AF242024C22300757B53 /* Array.hpp */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		EE71AF1B2024C05700757B53 /* Non-Linear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Non-Linear";
+			sourceTree = "<group>";
+		};
+		EE71AF1C2024C0C300757B53 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
 		EE7AB61920220BED0083E029 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +107,7 @@
 		EE7AB62420220BEE0083E029 /* DataStructureProject */ = {
 			isa = PBXGroup;
 			children = (
+				EE3B4DA02029FF9C00CB80C1 /* Testers */,
 				EE7AB63620220C9F0083E029 /* Model */,
 				EE7AB62E20220C450083E029 /* Data */,
 				EE7AB62D20220C390083E029 /* Diagrams */,
@@ -100,6 +140,8 @@
 		EE7AB62E20220C450083E029 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE7AB63D20221F4D0083E029 /* CrimeData.cpp */,
+				EE7AB63E20221F570083E029 /* CrimeData.hpp */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -116,6 +158,7 @@
 		EE7AB63620220C9F0083E029 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE71AF1A2024C03200757B53 /* Structures */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +224,7 @@
 				EE7AB63820220CE20083E029 /* Runner.cpp in Sources */,
 				EE7AB62620220BEE0083E029 /* main.cpp in Sources */,
 				EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */,
+				EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */,
 				EE7AB63220220C790083E029 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

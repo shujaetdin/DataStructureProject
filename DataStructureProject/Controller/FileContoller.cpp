@@ -22,22 +22,26 @@ vector<CrimeData> FileContoller :: readCrimeDataToVector(string filename)
         //Keep reading until you are at the end of the file.
         while( !dataFile.eof())
         {
-           //GHrab each line from the CSV seperated by the carriage return charcater.
+           //Grab each line from the CSV seperated by the carriage return charcater.
             getLine(dataFile, vurrentCSVLine, '\r');
             //Exclude hedaer row
             if (rowCount !=0)
             {
             //Create a CrimeData instance from the line.
+                if(currentyCSVLine.length() !=0)
+                {
                 CrimeData row(currentCSVLine);
                 crimeVector.push_back(row)
-            }
+                }
+                
+                }
             rowCount++
         }
         dataFile.close();
     }
     else
     {
-        cerr << "No File" << endl;
+        cerr << "NO FILE" << endl;
     }
 
     return crimeVector;
