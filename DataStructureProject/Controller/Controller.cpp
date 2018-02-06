@@ -7,9 +7,15 @@
 //
 
 #include "Controller.hpp"
+
 using namespace std;
 
 void Controller :: start()
+{
+    ArrayTester myTest;
+    myTest.testArrayUse();
+    myTest.testAdvancedArray();
+}
 {
     cout << "testing the Timer class" << endl;
     Timer codeTimer;
