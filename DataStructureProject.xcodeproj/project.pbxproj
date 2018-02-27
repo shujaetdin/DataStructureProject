@@ -13,6 +13,7 @@
 		EE7AB63520220C8C0083E029 /* FileContoller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63320220C8C0083E029 /* FileContoller.cpp */; };
 		EE7AB63820220CE20083E029 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63720220CE20083E029 /* Runner.cpp */; };
 		EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63920220F4A0083E029 /* Timer.cpp */; };
+		EEA91A7F20446F8300BB75BD /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA91A7D20446F8300BB75BD /* DoubleNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		EE7AB63A20220F4A0083E029 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		EE7AB63D20221F4D0083E029 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		EE7AB63E20221F570083E029 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		EEA91A7D20446F8300BB75BD /* DoubleNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleNode.cpp; sourceTree = "<group>"; };
+		EEA91A7E20446F8300BB75BD /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		EEE4B3ED203F2387008A9796 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		EEE4B3F0203F23C1008A9796 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		EEE4B3F3203F23FE008A9796 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 		EEBF9ED82031F91600AF6D63 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				EEA91A7D20446F8300BB75BD /* DoubleNode.cpp */,
+				EEA91A7E20446F8300BB75BD /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				EE7AB62620220BEE0083E029 /* main.cpp in Sources */,
 				EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */,
 				EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */,
+				EEA91A7F20446F8300BB75BD /* DoubleNode.cpp in Sources */,
 				EE7AB63220220C790083E029 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
