@@ -10,10 +10,9 @@
 #define ArrayTester_hpp
 
 #include <iostream>
-#include "../Model/Structures/Linear/Array.hpp"
-#include "../Controller/FileController.hpp"
-#include"../Controller/Tools/Timer.hpp"
-
+#include "/Users/sdin0932/Documents/DataStructureProject/DataStructureProject/DataStructureProject/Model/Structures/LinearArray.hpp"
+#include "/Users/sdin0932/Documents/Data Structure/DataStructurePtoject/DataStructureProject/Controller/FileController.hpp"
+#include "/Users/sdin0932/Documents/DataStructureProject/data/DataStructureProject/Controller/Tools/Timer.hpp"
 class ArrayTester
 {
 public:
@@ -21,9 +20,5 @@ public:
     void testAdvancedArray();
     
 };
-
-
-
-
 
 #endif /* ArrayTester_hpp */
