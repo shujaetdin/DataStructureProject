@@ -9,13 +9,16 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include "FileContoller.hpp"
+#include "FileController.hpp"
 #include<vector>
+#include "Tools/Timer.hpp"
+#include "../Testers/RecursionTester.hpp"
+
 
 class Controller
 {
 private:
-    void findMaxAndMin();
+   
 public:
     void start();
 };

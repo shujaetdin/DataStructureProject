@@ -7,7 +7,13 @@
 //
 
 #include "Controller.hpp"
-
+#include <vector>
+#include "CrimeData.hpp"
+#include "Tools/Timer.hpp"
+#inlclude "FileController.hpp"
+#include "Array.hpp"
+#include "ArrayTester.hpp"
+#include "ArrayTester.hpp"
 using namespace std;
 
 void Controller :: start()
@@ -15,49 +21,38 @@ void Controller :: start()
     ArrayTester myTest;
     myTest.testArrayUse();
     myTest.testAdvancedArray();
-}
-{
-    cout << "testing the Timer class" << endl;
+    findMaxMin();
+    cout << "Testing the Timer class" << endl;
     Timer codeTimer;
     codeTimer.startTimer();
-    
-    vector<CrimeData> myData = FileContoller ::
-    readCrimeDataToVector("sdin0932/)
-    cout << "Print to the screen some text" << endl;
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/sdin0932/Downloads/crime.csv");
+    for (int loop = 200; loop < 210 ; loop ++)
+    {
+        cout << "Spot # " << loop <<";" << myData[loop] << endl;
+    }
     codeTimer.stopTimer();
     codeTimer.displayInformation();
-    
-    codeTimer.resetTimer();
-    codeTimer.stratTimer();
-    for (int indx = 0; index < 100; index++)
-    {
-        cout << "The index is " << index << "\t";
-    }
-    codeTimer.stopTimer();
-    codeTimer.displayInformation()
-  }
-  
-void Controller :: findMaxAndMin()
-    {
-        vector<CrimeData> myData = FileController ::: readCVSCrimeDataToVector(");
-       
-             int minIndex = 0;
-             int maxIndex = 0;
-                                                                             
-             for (int index = 1; inde < myData.size(); index++)
-         {
-             if(myData [minIndex] < myData.size(); index++)
-             {
-                 minIndex = index;
-             }
-    if (myData [maxIndex] > myData[index])
-    {
-        maxIndex = index;
-    }
+    RecursionTester test;
+    test.testRecursionNumbers();
+}
+
+void controller :: findMaxMin()
+{
+    Timer searchTimer.startTimer();
+    int maxIndex = 0;
+    int minIndex = 0;
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/sdin0932/Downloads/crime.csv")
+    for (int index = 1; index < myData.size(); index++){
+        if (myData[minIndex] < myData[index]){
+            minIndex = index;
         }
-            searchTimer.stopTimer();
-         cout << " The smalles crismestat is at " << minIndex << " and it is: " << myData[minIndex] << endl;
-         cout << "The largest Crime stat is at " << maxIndex << "and it is: " << myData[maxIndex] << endl;
-                                                                      
-                                                                      
-          };
+        else if (myData[maxIndex] > myData[index]){
+            maxIndex = index;
+        }
+    }
+    searchTimer.stopTimer();
+    cout << "The smallest crime stat is at " << minIndex << " and it is: " << myData[minIndex] << endl;
+    cout << "The largest crime stat is at "<< maxIndex << " and it is: " << myData[maxIndex] << endl;
+    searchTimer.displayInformation();
+}
+

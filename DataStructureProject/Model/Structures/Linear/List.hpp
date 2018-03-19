@@ -9,6 +9,6 @@
 #ifndef List_hpp
 #define List_hpp
 
-#include <stdio.h>
+#include "../../Nodes/LinearNode.hpp"
 
 #endif /* List_hpp */

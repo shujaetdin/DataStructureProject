@@ -35,7 +35,7 @@ void Timer :: stopTimer()
 void Timer :: displayInformation()
 {
     cout << "The execution time is: " << executionTime << endl;
-    cout << "In human time it is " << double (executionTime)/CLOCKS_Per_SEC <<
+    cout << "In human time it is " << double (executionTime)/CLOCKS_PER_SEC <<
     " seconds" << endl;
 }
 

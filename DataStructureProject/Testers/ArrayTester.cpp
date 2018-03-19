@@ -10,11 +10,11 @@
 
 void ArrayTester :: testArrayUse()
 {
-    Arrray<int> firstArray(10);
+    Array<int> firstArray(10);
     
     for ( int index = 0; index < 10; index++)
     {
-        fisrtArray.setAtdex(index, index);
+        firstArray.setAtIndex(index, index);
     }
     
     for (int index = 0; index < firstArray.getSize(); index++)
@@ -23,17 +23,17 @@ void ArrayTester :: testArrayUse()
     }
     Array<int> secondArray (400);
     
-    cout << secndArray.getSize() << endl;
-    cout << firstArray.getSize << endl;
+    cout << secondArray.getSize() << endl;
+    cout << firstArray.getSize() << endl;
     
     Array<int> thirdArray(secondArray);
     
-    cout << thirdArray.getSize) << endl;
-    fisrtArray = thirdArray;
-    cout<< fisrtArray[4] << endl;
+    cout << thirdArray.getSize() << endl;
+    firstArray = thirdArray;
+    cout<< firstArray[4] << endl;
     
     thirdArray[5] = 123;
-    cout << firstArray[5]<, endl;
+    cout << firstArray[5]<< endl;
 }
 
 void ArrayTester :: testAdvancedArray()

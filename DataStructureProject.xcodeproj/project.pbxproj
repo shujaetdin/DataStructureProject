@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE15C6B42060029F00FA5871 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE15C6B22060029F00FA5871 /* Graph.cpp */; };
 		EE2D3C862045C407007B9AC9 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE2D3C842045C407007B9AC9 /* Node.cpp */; };
+		EE33B880205C0E0B00BB7033 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63D20221F4D0083E029 /* CrimeData.cpp */; };
 		EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */; };
-		EE7AB62620220BEE0083E029 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB62520220BEE0083E029 /* main.cpp */; };
 		EE7AB63220220C790083E029 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63020220C790083E029 /* Controller.cpp */; };
-		EE7AB63520220C8C0083E029 /* FileContoller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63320220C8C0083E029 /* FileContoller.cpp */; };
+		EE7AB63520220C8C0083E029 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63320220C8C0083E029 /* FileController.cpp */; };
 		EE7AB63820220CE20083E029 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63720220CE20083E029 /* Runner.cpp */; };
 		EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63920220F4A0083E029 /* Timer.cpp */; };
+		EE7CE799204D8F8E004EAA32 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7CE797204D8F8E004EAA32 /* RecursionTester.cpp */; };
+		EE9BA492205AB357001AF32C /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA490205AB357001AF32C /* SortingTester.cpp */; };
 		EEA91A7F20446F8300BB75BD /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA91A7D20446F8300BB75BD /* DoubleNode.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,22 +33,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE15C6B22060029F00FA5871 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		EE15C6B32060029F00FA5871 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		EE2D3C842045C407007B9AC9 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		EE2D3C852045C407007B9AC9 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		EE33B87F205C026400BB7033 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		EE71AF242024C22300757B53 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		EE7AB62220220BEE0083E029 /* DataStructureProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7AB62520220BEE0083E029 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE7AB63020220C790083E029 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		EE7AB63120220C790083E029 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
-		EE7AB63320220C8C0083E029 /* FileContoller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileContoller.cpp; sourceTree = "<group>"; };
-		EE7AB63420220C8C0083E029 /* FileContoller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileContoller.hpp; sourceTree = "<group>"; };
+		EE7AB63320220C8C0083E029 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		EE7AB63420220C8C0083E029 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		EE7AB63720220CE20083E029 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		EE7AB63920220F4A0083E029 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		EE7AB63A20220F4A0083E029 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		EE7AB63D20221F4D0083E029 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		EE7AB63E20221F570083E029 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		EE7CE797204D8F8E004EAA32 /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
+		EE7CE798204D8F8E004EAA32 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
+		EE9BA490205AB357001AF32C /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
+		EE9BA491205AB357001AF32C /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
 		EEA91A7D20446F8300BB75BD /* DoubleNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleNode.cpp; sourceTree = "<group>"; };
 		EEA91A7E20446F8300BB75BD /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		EEE4B3ED203F2387008A9796 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -71,6 +80,10 @@
 			children = (
 				EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */,
 				EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */,
+				EE7CE797204D8F8E004EAA32 /* RecursionTester.cpp */,
+				EE7CE798204D8F8E004EAA32 /* RecursionTester.hpp */,
+				EE9BA490205AB357001AF32C /* SortingTester.cpp */,
+				EE9BA491205AB357001AF32C /* SortingTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -87,6 +100,8 @@
 		EE71AF1B2024C05700757B53 /* Non-Linear */ = {
 			isa = PBXGroup;
 			children = (
+				EE15C6B22060029F00FA5871 /* Graph.cpp */,
+				EE15C6B32060029F00FA5871 /* Graph.hpp */,
 			);
 			path = "Non-Linear";
 			sourceTree = "<group>";
@@ -129,7 +144,6 @@
 				EE7AB62D20220C390083E029 /* Diagrams */,
 				EE7AB62C20220C170083E029 /* Controller */,
 				EE7AB63720220CE20083E029 /* Runner.cpp */,
-				EE7AB62520220BEE0083E029 /* main.cpp */,
 			);
 			path = DataStructureProject;
 			sourceTree = "<group>";
@@ -137,11 +151,10 @@
 		EE7AB62C20220C170083E029 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EEBF9ED82031F91600AF6D63 /* Nodes */,
 				EE7AB63020220C790083E029 /* Controller.cpp */,
 				EE7AB63120220C790083E029 /* Controller.hpp */,
-				EE7AB63320220C8C0083E029 /* FileContoller.cpp */,
-				EE7AB63420220C8C0083E029 /* FileContoller.hpp */,
+				EE7AB63320220C8C0083E029 /* FileController.cpp */,
+				EE7AB63420220C8C0083E029 /* FileController.hpp */,
 				EE7AB62F20220C500083E029 /* Tools */,
 			);
 			path = Controller;
@@ -157,6 +170,7 @@
 		EE7AB62E20220C450083E029 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE33B87F205C026400BB7033 /* crime.csv */,
 				EE7AB63D20221F4D0083E029 /* CrimeData.cpp */,
 				EE7AB63E20221F570083E029 /* CrimeData.hpp */,
 			);
@@ -175,6 +189,7 @@
 		EE7AB63620220C9F0083E029 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EEBF9ED82031F91600AF6D63 /* Nodes */,
 				EE71AF1A2024C03200757B53 /* Structures */,
 			);
 			path = Model;
@@ -248,11 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7AB63520220C8C0083E029 /* FileContoller.cpp in Sources */,
+				EE15C6B42060029F00FA5871 /* Graph.cpp in Sources */,
+				EE7CE799204D8F8E004EAA32 /* RecursionTester.cpp in Sources */,
+				EE7AB63520220C8C0083E029 /* FileController.cpp in Sources */,
 				EE7AB63820220CE20083E029 /* Runner.cpp in Sources */,
-				EE7AB62620220BEE0083E029 /* main.cpp in Sources */,
 				EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */,
+				EE9BA492205AB357001AF32C /* SortingTester.cpp in Sources */,
 				EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */,
+				EE33B880205C0E0B00BB7033 /* CrimeData.cpp in Sources */,
 				EEA91A7F20446F8300BB75BD /* DoubleNode.cpp in Sources */,
 				EE7AB63220220C790083E029 /* Controller.cpp in Sources */,
 				EE2D3C862045C407007B9AC9 /* Node.cpp in Sources */,
