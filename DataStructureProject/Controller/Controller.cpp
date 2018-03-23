@@ -13,7 +13,6 @@
 #inlclude "FileController.hpp"
 #include "Array.hpp"
 #include "ArrayTester.hpp"
-#include "ArrayTester.hpp"
 using namespace std;
 
 void Controller :: start()
