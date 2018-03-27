@@ -18,6 +18,7 @@
 		EE7CE799204D8F8E004EAA32 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7CE797204D8F8E004EAA32 /* RecursionTester.cpp */; };
 		EE9BA492205AB357001AF32C /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA490205AB357001AF32C /* SortingTester.cpp */; };
 		EEC00BA020653FDB0026C585 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC00B9E20653FDB0026C585 /* GraphTester.cpp */; };
+		EEC796E3206A948E00D2C837 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC796E1206A948E00D2C837 /* BinaryTreeTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,8 @@
 		EEA91A7E20446F8300BB75BD /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		EEC00B9E20653FDB0026C585 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		EEC00B9F20653FDB0026C585 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		EEC796E1206A948E00D2C837 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		EEC796E2206A948E00D2C837 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		EEE4B3ED203F2387008A9796 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		EEE4B3F0203F23C1008A9796 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		EEE4B3F3203F23FE008A9796 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				EE9BA491205AB357001AF32C /* SortingTester.hpp */,
 				EEC00B9E20653FDB0026C585 /* GraphTester.cpp */,
 				EEC00B9F20653FDB0026C585 /* GraphTester.hpp */,
+				EEC796E1206A948E00D2C837 /* BinaryTreeTester.cpp */,
+				EEC796E2206A948E00D2C837 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 				EE7AB63520220C8C0083E029 /* FileController.cpp in Sources */,
 				EE7AB63820220CE20083E029 /* Runner.cpp in Sources */,
 				EE7AB63B20220F4A0083E029 /* Timer.cpp in Sources */,
+				EEC796E3206A948E00D2C837 /* BinaryTreeTester.cpp in Sources */,
 				EEC00BA020653FDB0026C585 /* GraphTester.cpp in Sources */,
 				EE9BA492205AB357001AF32C /* SortingTester.cpp in Sources */,
 				EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */,
