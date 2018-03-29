@@ -10,5 +10,8 @@
 #define BinaryTreeTester_hpp
 
 #include <stdio.h>
+#include "../Model/Nodes/BinaryTreeNode.hpp"
+
+class BinaryTreeTester
 
 #endif /* BinaryTreeTester_hpp */
