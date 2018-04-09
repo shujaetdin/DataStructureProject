@@ -42,6 +42,7 @@
 		EE33B87F205C026400BB7033 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		EE3F7238207BB13C004721C9 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 		EE71AF242024C22300757B53 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		EE7AB62220220BEE0083E029 /* DataStructureProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7AB63020220C790083E029 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				EEE4B3F0203F23C1008A9796 /* Queue.hpp */,
 				EEE4B3F3203F23FE008A9796 /* Stack.hpp */,
 				EEE4B3F6203F2428008A9796 /* CircularList.hpp */,
+				EE3F7238207BB13C004721C9 /* BinarySearchTree.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
