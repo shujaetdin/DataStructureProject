@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE15C6B42060029F00FA5871 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE15C6B22060029F00FA5871 /* Graph.cpp */; };
 		EE15C6B72060191200FA5871 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE15C6B52060191200FA5871 /* DoublyLinkedList.cpp */; };
+		EE26C3B2208E21D60005E671 /* N_ArayTreeNode_h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE26C3B0208E21D60005E671 /* N_ArayTreeNode_h.cpp */; };
 		EE33B880205C0E0B00BB7033 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63D20221F4D0083E029 /* CrimeData.cpp */; };
 		EE3B4DA3202A001D00CB80C1 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */; };
 		EE7AB63220220C790083E029 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7AB63020220C790083E029 /* Controller.cpp */; };
@@ -38,8 +39,11 @@
 		EE15C6B32060029F00FA5871 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		EE15C6B52060191200FA5871 /* DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyLinkedList.cpp; sourceTree = "<group>"; };
 		EE15C6B92060194600FA5871 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		EE26C3B0208E21D60005E671 /* N_ArayTreeNode_h.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_ArayTreeNode_h.cpp; sourceTree = "<group>"; };
+		EE26C3B1208E21D60005E671 /* N_ArayTreeNode_h.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = N_ArayTreeNode_h.hpp; sourceTree = "<group>"; };
 		EE2D3C852045C407007B9AC9 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		EE33B87F205C026400BB7033 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		EE39FBCF20863CFF00623351 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		EE3B4DA1202A001D00CB80C1 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		EE3B4DA2202A001D00CB80C1 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		EE3F7238207BB13C004721C9 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 			children = (
 				EE15C6B22060029F00FA5871 /* Graph.cpp */,
 				EE15C6B32060029F00FA5871 /* Graph.hpp */,
+				EE3F7238207BB13C004721C9 /* BinarySearchTree.hpp */,
+				EE39FBCF20863CFF00623351 /* AVLTree.hpp */,
 			);
 			path = "Non-Linear";
 			sourceTree = "<group>";
@@ -125,7 +131,6 @@
 				EEE4B3F0203F23C1008A9796 /* Queue.hpp */,
 				EEE4B3F3203F23FE008A9796 /* Stack.hpp */,
 				EEE4B3F6203F2428008A9796 /* CircularList.hpp */,
-				EE3F7238207BB13C004721C9 /* BinarySearchTree.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -213,6 +218,8 @@
 				EE2D3C852045C407007B9AC9 /* Node.hpp */,
 				EE15C6B52060191200FA5871 /* DoublyLinkedList.cpp */,
 				EE15C6B92060194600FA5871 /* LinearNode.hpp */,
+				EE26C3B0208E21D60005E671 /* N_ArayTreeNode_h.cpp */,
+				EE26C3B1208E21D60005E671 /* N_ArayTreeNode_h.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -274,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE26C3B2208E21D60005E671 /* N_ArayTreeNode_h.cpp in Sources */,
 				EE15C6B42060029F00FA5871 /* Graph.cpp in Sources */,
 				EE7CE799204D8F8E004EAA32 /* RecursionTester.cpp in Sources */,
 				EE7AB63520220C8C0083E029 /* FileController.cpp in Sources */,

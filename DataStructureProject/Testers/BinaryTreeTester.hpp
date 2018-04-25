@@ -6,13 +6,20 @@
 //  Copyright © 2018 Din, Shujaet. All rights reserved.
 //
 
+
 #ifndef BinaryTreeTester_hpp
 #define BinaryTreeTester_hpp
 
-#include <stdio.h>
-#include "../Model/Nodes/BinaryTreeNode.hpp"
-#include "../Model/Structures/NonLinear/BinarySearchTree.hpp"
+#include "BinaryTreeNode.hpp"
+#include <iostream>
+#include "BinarySearchTree.hpp"
 
-class BinaryTreeTester
+class BinaryTreeTester{
+private:
+    BinarySearchTree<int> testTree;
+    BinaryTreeNode<int> testNode;
+public:
+    void doTreeStuff();
+};
 
 #endif /* BinaryTreeTester_hpp */
